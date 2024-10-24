@@ -1,0 +1,8 @@
+/* Header.css */
+header {
+  background-color: #d4a523;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}

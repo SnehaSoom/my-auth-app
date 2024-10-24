@@ -1,0 +1,52 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  overflow: auto;
+  margin: 20px;
+}
+
+.email-input {
+  border-color: #007bff; /* Different color for email input */
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 40px; /* Space for the toggle icon */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.register-submit-button {
+  background-color: #d4a523;
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 16px; /* Set font size */
+  font-weight: bold; /* Make font bold */
+  transition: background-color 0.3s; /* Add transition effect */
+  width: 100%;
+}
+
+.register-submit-button:hover {
+  background-color: #ddb853; /* Change background color on hover */
+}
